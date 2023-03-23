@@ -8,7 +8,7 @@
 6. 각 채널의 색상 값을 가장 가까운 cluster center로 대체
 7. HSV -> RGB 색 공간으로 변환
 8. 2번에서 구한 edge 적용
-9. 각 채널을 eroding. (edge 강조)
+9. 각 채널 eroding (edge 강조)
 
 
 ## 시연 영상
