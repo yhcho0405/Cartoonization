@@ -95,7 +95,7 @@ def cartoonize_image(img):
     output = cv.cvtColor(output, cv.COLOR_HSV2RGB)
 
     contours, _ = cv.findContours(edge, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_NONE)
-    cv.drawContours(output, contours, -1, 0, thickness=2)
+    cv.drawContours(output, contours, -1, 0, thickness=1)
     for i in range(3):
         output[:, :, i] = cv.erode(output[:, :, i], kernel, iterations=1)
     return output
