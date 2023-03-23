@@ -1,4 +1,4 @@
-# Cartoonization
+# VideoCartoonization
 
 1. Bilateral filter 적용 (edge를 보존하기 위해 각 채널(RGB)에 개별적으로 적용)
 2. Canny edge 알고리즘 적용
